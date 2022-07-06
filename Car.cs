@@ -6,17 +6,17 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp22
 {
-    internal class Cat
+    internal class Car
     {
-        public string name;
-        public byte age;
+        public string model;
+        public int price;
+        public int speed;
         public string color;
 
-       
 
         public string GetDetails()
         {
-            return $"{name} {age} {color}";
+            return $"{model} {price} {speed} {color}";
         }
     }
 }

@@ -6,19 +6,21 @@ namespace ConsoleApp22
     {
         static void Main(string[] args)
         {
-            Cat cat1 = new Cat();
+            Bmw car = new Bmw();
 
-            cat1.name = "Garfield";
-            cat1.age = 2;
-            cat1.color = "Orange";
-            Console.WriteLine(cat1.GetDetails());
+            car.model = "BMW 525";
+            car.price = 14000;
+            car.speed = 260;
+            car.color = "Black";
+            Console.WriteLine(car.GetDetails());
 
-            Dogs dog1 = new Dogs();
+            Mercedes car1 = new Mercedes();
 
-            dog1.name = "Rotwiller";
-            dog1.age = 1;
-            dog1.color = "Black";
-            Console.WriteLine(dog1.GetDetails());
+            car1.model = "Mercedes E Class";
+            car1.price = 75000;
+            car1.speed = 260;
+            car1.color = "Black";
+            Console.WriteLine(car1.GetDetails());
 
         }
     }
